@@ -31,7 +31,7 @@ export const Sections = () => {
           <p>Beauty</p>
         </a>
       </div>
-      <div className="flex flex-col lg:flex-row justify-center w-full mt-12 text-[#00205b] ">
+      <div className="flex flex-col lg:flex-row justify-center w-full mt-12 text-[#00205b] p-4 md:p-1 ">
         <div className="flex flex-col w-full lg:w-1/2 gap-3 mb-4">
           <h3 className=" text-xl  md:text-3xl font-bold w-3/5">
             Low-Calorie Mediterranean Diet Can Help You Lose Belly Fat And

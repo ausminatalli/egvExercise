@@ -67,9 +67,9 @@ const Exhibitions = () => {
           Explore Latest Medical Exhibitions
         </h2>
       </div>
-      <div className="container mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="container p-0  mx-14   md:p-6 grid grid-cols-1 md:mx-auto md:grid-cols-2 gap-4">
         {exhibitionData.map((exhibition, index) => (
-          <div key={index} className="relative">
+          <div key={index} className="relative ">
             <div
               className="relative bg-cover bg-center h-80 w-9/12 p-6 cursor-pointer flex items-center justify-center"
               style={{ backgroundImage: `url('${exhibition.backgroundImage}')` }}

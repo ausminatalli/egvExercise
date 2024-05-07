@@ -39,7 +39,7 @@ return (
         </a>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-10 justify-items-center">
-            <div className="flex flex-col gap-3 cursor-pointer">
+            <div className="flex flex-col gap-3 cursor-pointer ">
               <Image
                 src={"/healthcare tab/doctor-nurse-discussing-digital-tablet.png"}
                 alt="1"

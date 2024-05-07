@@ -60,7 +60,7 @@ export default function Research() {
         </h1>
       </div>
       <main className="w-full flex justify-center items-center ">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center ">
           {researchItems.map((item, index) => (
             <div
               key={index}
