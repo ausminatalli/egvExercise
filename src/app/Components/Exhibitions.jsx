@@ -67,7 +67,7 @@ const Exhibitions = () => {
           Explore Latest Medical Exhibitions
         </h2>
       </div>
-      <div className="container p-0  mx-14   md:p-6 grid grid-cols-1 md:mx-auto md:grid-cols-2 gap-4">
+      <div className="container p-6 grid grid-cols-1 mx-auto md:grid-cols-2 gap-4">
         {exhibitionData.map((exhibition, index) => (
           <div key={index} className="relative ">
             <div
