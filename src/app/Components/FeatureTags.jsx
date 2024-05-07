@@ -30,8 +30,8 @@ const FeatureTags = () => {
                 <div></div>
                 <div className='font-semibold grid grid-cols-2 md:grid-cols-2 gap-4 w-full md:w-1/2 h-full mt-8 '>
                     {tags.map((tag, index) => (
-                        <div key={index} className='border rounded-xl hover:bg-slate-200 p-2 flex justify-between items-center h-20 '>
-                            <p className='text-blue-900 text-md md:text-xl cursor-pointer'>{tag.name}</p>
+                        <div key={index} className='border rounded-xl hover:bg-slate-200 p-2 flex justify-between items-center md:h-20 '>
+                            <p className='text-blue-900 text-sm md:text-xl cursor-pointer'>{tag.name}</p>
                             <div className='border bg-white rounded-lg p-2 cursor-pointer'>
                                 <Image src={tag.icon} width={32} height={32} alt='arrow'/>
                             </div>

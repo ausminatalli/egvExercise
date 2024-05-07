@@ -13,9 +13,7 @@ const SearchComponent = () => {
   };
 
   const handleSearch = () => {
-    // Implement your search logic here based on the searchQuery state
     console.log("Search button clicked. Search query:", searchQuery);
-    // Example: Perform an API call or filter data based on the search query
   };
 
   const handleAlphabetClick = (letter) => {
@@ -30,7 +28,7 @@ const SearchComponent = () => {
           Search For Diseases & Conditions
         </h1>
       </div>
-      <div className="flex flex-col md:flex-row justify-between">
+      <div className="flex flex-col md:flex-row justify-between md:p-0 p-2">
         <div className="p-4 rounded-lg m-4 w-full md:w-1/2">
           <div className="flex items-center mb-4 w-full md:w-2/3">
             <input

@@ -71,7 +71,7 @@ const Exhibitions = () => {
         {exhibitionData.map((exhibition, index) => (
           <div key={index} className="relative ">
             <div
-              className="relative bg-cover bg-center h-80 w-9/12 p-6 cursor-pointer flex items-center justify-center"
+              className="relative bg-cover bg-center h-80 w-9/12  cursor-pointer flex items-center justify-center"
               style={{ backgroundImage: `url('${exhibition.backgroundImage}')` }}
               onClick={() => playVideo(exhibition.videoSrc)}
             >
